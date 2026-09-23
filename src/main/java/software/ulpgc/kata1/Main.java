@@ -12,8 +12,7 @@ public class Main {
 
         LocalDate today = LocalDate.now();
 
-
-        System.out.println("Name: " + person.getName());
+        System.out.println("Nama: " + person.getName());
         System.out.println("Birth date: " + person.getBirthDate());
         System.out.println("Age: " + person.calculateAgeOn(today));
     }

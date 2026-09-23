@@ -4,6 +4,7 @@ import java.time.LocalDate;
 import java.time.Period;
 
 public class Person {
+
     private final String name;
     private final LocalDate birthDate;
 
@@ -12,12 +13,12 @@ public class Person {
         this.birthDate = birthDate;
     }
 
-    public String getName() {
-        return name;
-    }
-
     public LocalDate getBirthDate() {
         return birthDate;
+    }
+
+    public String getName() {
+        return name;
     }
 
     public int calculateAgeOn(LocalDate date) {
