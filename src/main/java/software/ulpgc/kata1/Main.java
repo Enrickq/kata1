@@ -14,6 +14,6 @@ public class Main {
 
         System.out.println("Name: " + person.getName());
         System.out.println("Birth date: " + person.getBirthDate());
-        System.out.println("Age: " + person.ageOn(today));
+        System.out.println("Age: " + person.calculateAgeOn(today));
     }
 }

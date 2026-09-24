@@ -21,7 +21,7 @@ public class Person {
         return birthDate;
     }
 
-    public int ageOn(LocalDate date) {
+    public int calculateAgeOn(LocalDate date) {
         if (date.isBefore(birthDate)) {
             throw new IllegalArgumentException("Date cannot be before birth date");
         }
