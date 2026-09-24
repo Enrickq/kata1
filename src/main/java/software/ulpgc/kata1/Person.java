@@ -13,12 +13,12 @@ public class Person {
         this.birthDate = birthDate;
     }
 
-    public LocalDate getBirthDate() {
-        return birthDate;
-    }
-
     public String getName() {
         return name;
+    }
+
+    public LocalDate getBirthDate() {
+        return birthDate;
     }
 
     public int calculateAgeOn(LocalDate date) {
@@ -27,4 +27,5 @@ public class Person {
         }
         return Period.between(birthDate, date).getYears();
     }
+
 }
