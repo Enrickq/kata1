@@ -72,7 +72,7 @@ Durante cada repetición se utilizaron breakpoints en dos puntos de la clase
 `Person`:
 
 - En el constructor, para inspeccionar `name` y `birthDate`.
-- En `calculateAgeOn`, para inspeccionar la fecha de nacimiento y la fecha
+- En `ageOn`, para inspeccionar la fecha de nacimiento y la fecha
   utilizada para calcular la edad.
 
 La ejecución en modo Debug permite detener temporalmente el programa y observar
@@ -240,7 +240,8 @@ desde una copia limpia del repositorio.
 
 Vídeo de la Kata 1:
 
-**Pendiente de añadir el enlace al vídeo.**
+[Vídeo explicativo de la Kata 1]
+https://youtu.be/jm0zuj3_nrc?si=xaQmSNBqgjAoyk4V
 
 El vídeo mostrará brevemente:
 
