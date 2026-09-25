@@ -85,13 +85,13 @@ Se utilizó la herramienta **Rename Refactoring** de IntelliJ IDEA mediante
 
 El método:
 
-```java
+```text
 ageOn(LocalDate date)
 ```
 
 se renombró a:
 
-```java
+```text
 calculateAgeOn(LocalDate date)
 ```
 
